@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+      <h1>Random Number Game</h1>
+      <form class="rangeForm">
+          <h3>Generate a number between 0 and <span class="guessNumber"></span></h3>
+          <input type="range" class="range" min="1" max="200" step="1" value="10"><br>
+          <span>Guess the number :</span>
+          <input type="number" min="1" max="200" step="1" value="1" class="chosenNumber">
+          <input type="button" value="Play!" class="submitNumber">
+      </form>
+      <span class="result"></span><br>
+      <span class="lose"></span>
+    <script src="src/index.js"></script>
+  </body>
+</html>
